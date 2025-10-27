@@ -10,6 +10,7 @@ namespace CICD_Practice.Controllers
         [HttpGet]
         public async Task<IActionResult> Get()
         {
+            await Task.Delay(10); // Simulate some async work
             return Ok("Hello, World!");
         }
     }
