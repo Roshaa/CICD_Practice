@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="CICD_Practice/CICD_Practice.csproj" />
+  <Project Path="Tests/Tests.csproj" Id="bc4fe0eb-b6a7-4b84-8e55-54f9926724f6" />
 </Solution>
