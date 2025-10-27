@@ -20,4 +20,4 @@ jobs:
     - name: Build
       run: dotnet build --no-restore
     - name: Test
-      run: dotnet test ./tests/YourApp.Tests/Tests.Tests.csproj --verbosity normal
+      run: dotnet test ./Tests/*.csproj --verbosity normal
