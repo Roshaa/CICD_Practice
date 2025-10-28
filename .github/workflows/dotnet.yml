@@ -15,9 +15,18 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 9.0.x
+
+    - name: Echo .NET version
+      run: dotnet --version
+
     - name: Restore dependencies
       run: dotnet restore
+
+    - name: Some Message
+      run: echo "Will build and run tests."
+
     - name: Build
       run: dotnet build --no-restore
+
     - name: Test
       run: dotnet test ./Tests/*.csproj --verbosity normal
