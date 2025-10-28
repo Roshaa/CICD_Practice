@@ -33,6 +33,7 @@ jobs:
 
   parallelJob:
      runs-on: ubuntu-latest
+     needs: build
      steps:
   
       - name: Parallel Job Step 1
