@@ -14,9 +14,9 @@ jobs:
             run: echo 'Runs only on failure'
 
             #i know this isnt required
-          - name: runs on sucess
+          - name: runs on success
             if: success()
-            run: echo 'runs on sucess'
+            run: echo 'runs on success'
 
           - name: always runs
             #if: success() || failure()
